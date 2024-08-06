@@ -1,4 +1,4 @@
-I'm Ali. 
+Hi I'm Ali. 
 
 A developer behind uncountable no. of graphical softwares written for windows platform, each one adding its own value.
 
