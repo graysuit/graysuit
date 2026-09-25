@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed Ibrahim Ali — Desktop software, automation &amp; scraping</title>
+  <meta name="description" content="Self-taught developer in Islamabad. 200+ Fiverr orders, 4.96/5.0 rating. Windows desktop apps, automation, scraping, AI integration. Clients in 25+ countries." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="canonical" href="https://graysuit.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Syed Ibrahim Ali — Developer" />
+  <meta property="og:description" content="Desktop software, automation, scraping & AI. 200+ orders, 4.96/5.0, clients in 25+ countries." />
+  <meta property="og:image" content="assets/img/og-image.svg" />
+  <meta property="og:url" content="https://graysuit.github.io/" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Syed Ibrahim Ali — Developer" />
+  <meta name="twitter:description" content="Desktop software, automation, scraping & AI. Built to be used, not marketed." />
+  <meta name="twitter:image" content="assets/img/og-image.svg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Syed Ibrahim Ali",
+    "url": "https://graysuit.github.io/",
+    "jobTitle": "Software Developer",
+    "nationality": "Pakistani",
+    "address": { "@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK" },
+    "knowsAbout": ["WPF", "WinForms", "VB.NET", "C#", "Web Scraping", "Automation"],
+    "sameAs": [
+      "https://github.com/graysuit",
+      "https://github.com/EasingSoft",
+      "https://www.linkedin.com/in/easydesktop/",
+      "https://www.fiverr.com/grayprogrammerz"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div data-header></div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <span class="kicker">self-taught · since 2019 · Islamabad</span>
+        <h1>I build desktop software <span class="grad">people actually use.</span></h1>
+        <p class="sub">Windows apps, automation, scraping, AI. Hard or easy, leave that on me.</p>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><div class="num">200+</div><div class="lbl">Orders</div></div>
+        <div class="stat"><div class="num">4.96</div><div class="lbl">Rating /5</div></div>
+        <div class="stat"><div class="num">$76k</div><div class="lbl">Earned</div></div>
+        <div class="stat"><div class="num">25+</div><div class="lbl">Countries</div></div>
+        <div class="stat"><div class="num">1.3k</div><div class="lbl">GitHub stars</div></div>
+      </div>
+    </section>
+
+    <!-- WHAT I DO (short) -->
+    <section style="padding-top:0">
+      <div class="container two-col">
+        <div class="lead reveal">
+          <h2>Five years, two hundred orders.</h2>
+          <p>Desktop apps for Windows. Scrapers that survive updates. Automation that runs unattended. AI folded in where it actually helps.</p>
+        </div>
+        <div class="lead reveal">
+          <h2>No buzzwords.</h2>
+          <p>I don't do cloud or DevOps, and I don't pretend otherwise. I build what I'm good at, and I finish it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section style="padding-top:8px">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="tag">// flagship builds</span>
+          <h2>Selected work</h2>
+        </div>
+        <div id="project-grid" class="grid"></div>
+        <p class="center mt-40"><a class="btn ghost" href="pages/projects.html">All projects →</a></p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section>
+      <div class="container">
+        <div class="cta reveal">
+          <h2>Need something built?</h2>
+          <p>Two sentences about what you need. I'll give you an honest yes or no.</p>
+          <a class="btn" href="pages/contact.html">Get in touch</a>
+          <span style="display:inline-block;width:12px"></span>
+          <a class="btn ghost" href="pages/about.html">About me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    renderProjects(document.getElementById("project-grid"), PROJECTS, { featured: true });
+  </script>
+</body>
+</html>

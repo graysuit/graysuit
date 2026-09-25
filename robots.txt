@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://graysuit.github.io/sitemap.xml

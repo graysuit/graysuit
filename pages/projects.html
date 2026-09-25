@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Syed Ibrahim Ali</title>
+  <meta name="description" content="Selected projects by Syed Ibrahim Ali — desktop apps, scrapers, automation, AI, fintech, open source and hardware builds. Click a card for the full story." />
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg" />
+  <link rel="canonical" href="https://graysuit.github.io/pages/projects.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects — Syed Ibrahim Ali" />
+  <meta property="og:description" content="Desktop apps, scrapers, automation and AI tools. Click a card for the story." />
+  <meta property="og:image" content="../assets/img/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <div data-header></div>
+
+  <main>
+    <section style="padding-bottom:8px">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="tag">// the work</span>
+          <h2>Projects</h2>
+          <p>Client work is anonymised. Click a card for the full story.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div id="filters" class="filters"></div>
+        <div id="project-grid" class="grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="../assets/js/components.js"></script>
+  <script src="../assets/js/projects.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    initProjectFilters(
+      document.getElementById("filters"),
+      document.getElementById("project-grid"),
+      PROJECTS,
+      { expandable: true, base: "../" }
+    );
+  </script>
+</body>
+</html>

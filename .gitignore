@@ -1,0 +1,28 @@
+# Safety net. This folder is a static site -- nothing here should need a build
+# step, and nothing from the tooling side should ever be committed.
+
+# One-off data-prep scripts live in ../portfolio_work/, never here.
+*.py
+__pycache__/
+*.pyc
+
+# Raw Fiverr material. Folder names contain real usernames and order IDs.
+# If any of this ever reappears under assets/, it must not be committed.
+chats/
+orders/
+*_manifest.json
+**/download_manifest.json
+**/ocr_manifest.json
+
+# Session cookies must never be committed from any level.
+*Cookies*.txt
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
