@@ -4,4 +4,6 @@ A developer behind uncountable no. of graphical softwares written for windows pl
 
 Almost all of them are private, serving commercial sector. But I will try to open source at [@EasingSoft](https://www.github.com/EasingSoft), which might be useful for public view.
 
+Some glimpse to my past ugly efforts: [Portfolio](https://graysuit.github.io/)
+
 Feel free to contact at Discord: programmerofeast
